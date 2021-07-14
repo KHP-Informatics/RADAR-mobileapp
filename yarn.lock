@@ -4169,17 +4169,17 @@ cordova-serve@^3.0.0:
     opn "^5.3.0"
     which "^1.3.0"
 
-cordova-sqlite-storage-dependencies@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage-dependencies/-/cordova-sqlite-storage-dependencies-3.0.0.tgz#5f9c9fd6342fd4135a3375cc3d5579ffd0318e25"
-  integrity sha512-A7gV5lQZc0oPrJ/a+lsZmMZr7vYou4MXyQFOY+b/dwuCMsagLT0EsL7oY54tqzpvjtzLfh0aZGGm9i8DMAIFSA==
+cordova-sqlite-storage-dependencies@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage-dependencies/-/cordova-sqlite-storage-dependencies-4.0.0.tgz#2ffa2d1f2fb3bae868f489b6e174fb58d2926b8f"
+  integrity sha512-dTBxYaX/RGzH6+pp49o4sb3FuHCvhrssaKn1XMJ4LL3f9dnvz3rhFK2LdcWrdFkhOLOndnW/azUkbzZd+WWhRA==
 
-cordova-sqlite-storage@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage/-/cordova-sqlite-storage-5.1.0.tgz#ded50473525ad178fd623c3881a60662b79a3712"
-  integrity sha512-UmHe9yQiYblDBToh3z91WHuD6ZgmCm3VX+1QFseYQs4WVQ3+ndj22qyGby/NV0uyCgok91gB1obLjLM+9vYJEw==
+cordova-sqlite-storage@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cordova-sqlite-storage/-/cordova-sqlite-storage-6.0.0.tgz#25eba8eb4657d2b526c4b753747e6d1533fcb73b"
+  integrity sha512-njRloA3AICaUFztKHXoFfVcwlL7zbvyFxtdZIkK7P+MA3umILXtSKhYAQkSe2GtHr0LBNzJI5xUUqAlZl/Js0A==
   dependencies:
-    cordova-sqlite-storage-dependencies "3.0.0"
+    cordova-sqlite-storage-dependencies "4.0.0"
 
 cordova-support-android-plugin@^1.0.2:
   version "1.0.2"
@@ -6788,6 +6788,9 @@ has-values@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/has-values/-/has-values-1.0.0.tgz#95b0b63fec2146619a6fe57fe75628d5a39efe4f"
   integrity sha1-lbC2P+whRmGab+V/51Yo1aOe/k8=
+  dependencies:
+    is-number "^3.0.0"
+    kind-of "^4.0.0"
 
 has-yarn@^2.1.0:
   version "2.1.0"
@@ -10132,6 +10135,8 @@ object-visit@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/object-visit/-/object-visit-1.0.1.tgz#f79c4493af0c5377b59fe39d395e41042dd045bb"
   integrity sha1-95xEk68MU3e1n+OdOV5BBC3QRbs=
+  dependencies:
+    isobject "^3.0.0"
 
 object.assign@^4.1.0:
   version "4.1.2"
